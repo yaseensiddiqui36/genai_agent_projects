@@ -1,0 +1,36 @@
+Hypertension (High Blood Pressure): Clinical Overview
+
+Definition
+Hypertension is defined as a sustained systolic blood pressure of 130 mmHg or higher, or a
+diastolic blood pressure of 80 mmHg or higher, measured on two or more separate occasions.
+Blood pressure is categorized as normal (below 120/80 mmHg), elevated (120-129/<80 mmHg),
+stage 1 hypertension (130-139/80-89 mmHg), or stage 2 hypertension (140/90 mmHg or higher).
+
+Risk Factors
+Common risk factors for hypertension include advancing age, family history, obesity, high
+sodium intake, low potassium intake, physical inactivity, excessive alcohol consumption,
+tobacco use, chronic stress, and comorbid conditions such as diabetes and chronic kidney
+disease.
+
+Complications
+Untreated or poorly controlled hypertension increases the risk of stroke, myocardial
+infarction, heart failure, aortic aneurysm, peripheral artery disease, chronic kidney disease,
+and vision loss due to hypertensive retinopathy.
+
+Management and Blood Pressure Targets
+First-line management includes lifestyle modification: reducing dietary sodium to less than
+2,300 mg per day, adopting the DASH (Dietary Approaches to Stop Hypertension) eating pattern,
+achieving and maintaining a healthy body weight, engaging in at least 150 minutes of
+moderate-intensity aerobic activity per week, limiting alcohol intake, and smoking cessation.
+
+For most adults with confirmed hypertension, the recommended blood pressure target is below
+130/80 mmHg. Pharmacologic treatment options include thiazide diuretics, ACE inhibitors,
+angiotensin receptor blockers (ARBs), and calcium channel blockers, often used in combination
+when a single agent is insufficient. Regular home blood pressure monitoring is recommended to
+track treatment response.
+
+Follow-Up
+Patients starting or adjusting antihypertensive therapy should be reassessed within one month
+to evaluate response and tolerability. Once blood pressure is at goal, follow-up every three
+to six months is typically appropriate, along with periodic monitoring of kidney function and
+electrolytes for patients on diuretics or renin-angiotensin system inhibitors.
