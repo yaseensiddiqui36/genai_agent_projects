@@ -1,0 +1,6 @@
+credentials:
+  groq:
+    model_name: llama-3.3-70b-versatile
+    temperature: 0.1
+email:
+  sender_email: enter_email

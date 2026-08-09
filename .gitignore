@@ -1,0 +1,30 @@
+# Secrets
+.env
+credentials.json
+token.pickle
+
+# Local-only dev notes, never pushed
+CLAUDE.md
+
+# Claude Code local session/tool state
+.claude/
+
+# Derived/ephemeral - rebuilt from data/*.csv on app boot (see chatbot_app.py)
+refunds_agent.db
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+myenv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
