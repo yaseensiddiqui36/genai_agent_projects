@@ -1,222 +1,61 @@
 # Self-Correcting Enterprise Data Agent
 
-A GenAI agent that takes a natural-language business question, decides whether it
-needs SQL, document retrieval, or both, executes the chosen tool(s), validates that
-its answer is grounded in the retrieved evidence, and retries automatically once if
-execution or validation fails.
+A GenAI agent that takes a natural-language business question, decides whether it needs SQL, document retrieval, or both, executes the chosen tool(s), validates that its answer is grounded in the retrieved evidence, and retries automatically once if execution or validation fails.
 
-Built with **LangGraph** (agent orchestration), **Groq** (LLM inference), **FAISS** +
-**HuggingFace sentence-transformers** (document retrieval), **FastAPI** (API), and
-**Streamlit** (UI).
+## Tech Stack
 
-## Architecture
+- **LangGraph** — agent orchestration / routing graph
+- **Groq** — LLM inference
+- **FAISS + HuggingFace sentence-transformers** — document retrieval (RAG)
+- **FastAPI** — backend API
+- **Streamlit** — chat/inspection UI
+- **Docker / docker-compose** — containerized deployment
+- **pytest** — test suite (agent retry logic, SQL tool)
 
-```
-                         ┌──────────┐
-                         │  router  │  LLM classifies: sql | document | hybrid
-                         └────┬─────┘
-                 ┌────────────┴────────────┐
-                 ▼                         ▼
-           ┌───────────┐             ┌───────────────┐
-           │  run_sql  │             │ run_retrieval │
-           │ (LLM→SQL, │             │ (FAISS top-k  │
-           │ read-only │             │  similarity   │
-           │  execute) │             │    search)    │
-           └─────┬─────┘             └───────┬───────┘
-                 └────────────┬───────────────┘
-                               ▼
-                        ┌─────────────┐
-                        │ synthesize  │  LLM answers using only retrieved evidence
-                        └──────┬──────┘
-                               ▼
-                        ┌─────────────┐
-                        │  validate   │  LLM-as-judge grounding check + confidence
-                        └──────┬──────┘
-                       pass ───┴─── fail (and retries left)
-                        │                  │
-                        ▼                  ▼
-                       END          ┌───────────────┐
-                                    │ prepare_retry │  retry_count += 1
-                                    └───────┬───────┘
-                                            │  (loops back into run_sql / run_retrieval
-                                            │   with prior error as context)
-                                            ▼
-                                     (same fan-out as router)
-```
+## How It Works
 
-For `hybrid` questions, `run_sql` and `run_retrieval` execute as parallel branches of
-the same LangGraph superstep and both feed into `synthesize`. The retry loop is bounded
-to one retry (`settings.max_retries`, default `1`) — if it's still failing after that,
-the agent returns its best-effort answer with `validation_passed: false`.
+1. **Router** — an LLM classifies the incoming question as `sql`, `document`, or `hybrid`.
+2. **Tool execution** — the SQL tool queries a seeded database; the retrieval tool searches a FAISS vector store built from policy/support documents in `data/documents/`.
+3. **Validation** — the agent checks that its answer is actually grounded in the tool output.
+4. **Retry** — if execution or validation fails, the agent retries once automatically before surfacing an error.
+5. Exposed via a FastAPI backend (`src/infinite_coding_round/api/`) with a Streamlit UI (`src/infinite_coding_round/ui/`) on top, including an architecture-visualization page.
 
-### Guardrails
-- **Read-only SQL only**: `tools/sql_tool.py` rejects anything that isn't a single
-  `SELECT` (optionally with a leading `WITH`) — no `INSERT`/`UPDATE`/`DELETE`/DDL/
-  `PRAGMA`, no stacked statements — and opens the SQLite connection in `mode=ro`
-  regardless, as defense in depth. A `LIMIT` is enforced if the model doesn't supply one.
-- **Grounding validation**: the `validate` node has the LLM check the drafted answer
-  against the retrieved evidence and return a PASS/FAIL verdict + confidence; a
-  confidence below `settings.confidence_threshold` (default `0.55`) also forces a FAIL.
-- **No evidence -> automatic fail**: if neither SQL rows nor document passages were
-  retrieved, validation fails immediately without an extra LLM call.
+## Setup / Installation
 
-## Project layout
-
-```
-src/infinite_coding_round/
-  config.py              # env-driven settings (Groq model, embedding model, thresholds)
-  db/seed.py              # creates + seeds data/enterprise.db
-  rag/vectorstore.py       # builds/loads the FAISS index over data/documents/*.md
-  tools/sql_tool.py        # read-only SQL guardrails + execution
-  tools/retrieval_tool.py  # FAISS similarity search wrapper
-  agent/state.py           # LangGraph state (TypedDict + reducers for parallel branches)
-  agent/prompts.py         # all prompt templates
-  agent/graph.py           # the LangGraph StateGraph (router/sql/retrieval/synthesize/validate/retry)
-  api/main.py               # FastAPI app, POST /ask, GET /stats
-  api/schemas.py            # request/response Pydantic models
-  api/metrics.py            # in-memory observability counters behind /stats
-  ui/streamlit_app.py       # Streamlit front-end (API-backed, with standalone fallback); "Ask" page + nav
-  ui/architecture_page.py   # "Architecture & Tech Stack" page: system diagram, tech stack, key features
-data/
-  documents/                # refund_policy.md, escalation_policy.md, support_guide.md
-  enterprise.db              # generated by db/seed.py
-  faiss_index/                # generated by rag/vectorstore.py
-tests/                        # pytest suite (SQL guardrails + deterministic retry test)
-docs/TEST_CASES.md            # the 5 mandatory test cases with expected output
-Dockerfile, docker-compose.yml  # containerized backend + UI
-.github/workflows/ci.yml         # pytest on every push/PR
-```
-
-## Setup
-
-Requires Python 3.11+ and [`uv`](https://docs.astral.sh/uv/).
+Requires Python (see `.python-version`) and either `uv` or `pip`.
 
 ```bash
+# with uv
 uv sync
+
+# or with pip
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+pip install -r requirements.txt
 ```
 
-Create a `.env` file (already present in this repo) with:
+Configure environment variables as needed (Groq API key, DB path) — see `src/infinite_coding_round/config.py`.
 
-```
-GROQ_API_KEY=your_groq_api_key
-```
-
-Seed the database and build the vector index (one-time; both are idempotent/regenerable):
+## Usage
 
 ```bash
-uv run python -m infinite_coding_round.db.seed
-uv run python -m infinite_coding_round.rag.vectorstore
+# run the API
+uvicorn src.infinite_coding_round.api.main:app --reload
+
+# run the Streamlit UI
+streamlit run app.py
 ```
 
-## Running
-
-**One command (recommended)** — starts the FastAPI backend and the Streamlit UI together:
+Or via Docker:
 
 ```bash
-uv run python app.py
+docker-compose up --build
 ```
 
-This checks port 8000 first, reports clearly if it's already occupied by a stale
-process (see [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for the Windows
-`WinError 10013` fix), waits for the backend's `/health` check, then launches
-Streamlit at `http://127.0.0.1:8501`. Ctrl+C stops both.
-
-**Or run each service separately** (useful for backend development with `--reload`):
+Run the test suite with:
 
 ```bash
-uv run uvicorn infinite_coding_round.api.main:app --reload --port 8000
-# in a second terminal:
-uv run streamlit run src/infinite_coding_round/ui/streamlit_app.py
+pytest
 ```
 
-The Streamlit app also works **standalone**, with no backend running at all — see
-[`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for how it falls back to calling the agent
-in-process, which is what makes a single-service public deployment (e.g. Streamlit
-Community Cloud) possible.
-
-**API directly**
-
-```bash
-curl -X POST http://127.0.0.1:8000/ask \
-  -H "Content-Type: application/json" \
-  -d '{"question": "How many orders does customer Alice Chen have?"}'
-```
-
-### Response shape (`POST /ask`)
-
-```json
-{
-  "answer": "string",
-  "reasoning": "string (router's rationale for the sql/document/hybrid decision)",
-  "tools_used": ["sql", "document_retrieval"],
-  "generated_sql": "string | null",
-  "retrieved_sources": [{ "source": "refund_policy.md", "excerpt": "..." }],
-  "confidence": 0.0,
-  "validation_result": "string (validator's reasoning)",
-  "validation_passed": true,
-  "retry_count": 0,
-  "latency_ms": 1423.6,
-  "node_latencies_ms": { "router": 210.4, "run_sql": 640.1, "synthesize": 401.8, "validate": 171.3 }
-}
-```
-
-### Observability: `GET /stats`
-
-A lightweight, process-local (in-memory, resets on restart) snapshot of runtime
-behavior across all `/ask` calls so far — useful for a live demo without wiring up a
-real metrics stack:
-
-```json
-{
-  "total_queries": 12,
-  "avg_latency_ms": 1380.2,
-  "avg_confidence": 0.87,
-  "retry_rate": 0.083,
-  "validation_pass_rate": 0.917,
-  "route_counts": { "sql": 5, "document": 4, "hybrid": 3 }
-}
-```
-
-Each `/ask` request also logs a `request_id`, route, latency, retry count, and
-validation outcome (`api/main.py`) — enough to trace a single request through the logs.
-
-## Testing
-
-```bash
-uv run python -m pytest tests/ -q
-```
-
-Covers: SQL read-only guardrails (rejects writes/DDL/multi-statement), successful
-query execution against the seeded DB, and a deterministic (mocked-LLM) test of the
-retry-on-invalid-SQL path, including that the retry budget is respected.
-
-See [`docs/TEST_CASES.md`](docs/TEST_CASES.md) for the 5 mandatory scenarios
-(SQL-only, document-only, hybrid, invalid-SQL retry, insufficient evidence) with
-captured example outputs.
-
-CI runs this same suite on every push/PR via `.github/workflows/ci.yml`.
-
-## Docker
-
-```bash
-docker compose up --build
-```
-
-Starts the backend on `:8000` and the UI on `:8501` as two containers (UI configured
-to call the backend over the Docker network). Requires `.env` with `GROQ_API_KEY`.
-A standalone `Dockerfile` is also provided for the backend alone (e.g. for deploying
-just the API to a container platform).
-
-## Configuration
-
-All tunables live in `src/infinite_coding_round/config.py` / environment variables:
-
-| Variable | Default | Purpose |
-|---|---|---|
-| `GROQ_API_KEY` | — | Groq API key |
-| `GROQ_MODEL` | `llama-3.3-70b-versatile` | LLM for routing/SQL/synthesis/validation |
-| `EMBEDDING_MODEL` | `sentence-transformers/all-MiniLM-L6-v2` | HuggingFace embedding model for FAISS |
-| `MAX_RETRIES` | `1` | Retries after a failed execution/validation |
-| `SQL_ROW_LIMIT` | `50` | Default LIMIT applied when the model omits one |
-| `RETRIEVAL_TOP_K` | `4` | Passages fetched per document query |
-| `CONFIDENCE_THRESHOLD` | `0.55` | Minimum validator confidence to pass |
+See `docs/DEPLOYMENT.md` for deployment notes and `docs/TEST_CASES.md` for the test case catalogue.
