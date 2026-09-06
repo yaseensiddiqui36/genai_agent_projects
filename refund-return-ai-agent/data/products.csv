@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,price,return_window_days,weight_lbs,fragile,restockable
+PROD00001,Ultra Technica,Books,Technical,51.97,30,10.51,False,True
+PROD00002,Ultra Tool,Home & Garden,Tools,253.36,45,1.39,False,False
+PROD00003,Premium Headphone,Electronics,Headphones,473.78,14,1.16,False,False
+PROD00004,Premium Educationa,Books,Educational,14.49,30,7.07,False,True
+PROD00005,Ultra Tool,Home & Garden,Tools,763.64,45,2.94,False,True
+PROD00006,Pro Comic,Books,Comics,36.17,14,9.52,False,True
+PROD00007,Essential Kitche,Home & Garden,Kitchen,346.71,14,17.87,False,False
+PROD00008,Ultra Team Sport,Sports,Team Sports,292.86,45,16.11,False,True
+PROD00009,Ultra Jean,Clothing,Jeans,136.57,30,6.09,False,True
+PROD00010,Advanced Tool,Home & Garden,Tools,443.48,60,15.67,False,False
+PROD00011,Advanced Surface Book,Electronics,Laptops,963.34,30,9.38,False,True
+PROD00012,Essential Fitnes,Sports,Fitness,67.0,30,12.34,False,False
+PROD00013,Deluxe Accessorie,Clothing,Accessories,55.64,90,18.01,False,False
+PROD00014,Ultra Headphone,Electronics,Headphones,835.74,14,9.31,False,False
+PROD00015,Modern Galaxy Plus,Electronics,Smartphones,1208.96,30,11.35,False,False
+PROD00016,Premium Gamin,Electronics,Gaming,1418.07,14,11.28,False,False
+PROD00017,Ultra Activewea,Clothing,Activewear,104.25,45,14.41,False,True
+PROD00018,Classic Comic,Books,Comics,20.32,14,3.15,False,True
+PROD00019,Pro Camera,Electronics,Cameras,532.05,14,9.53,False,True
+PROD00020,Essential Tablet,Electronics,Tablets,993.25,14,16.42,False,True
+PROD00021,Premium Non-fictio,Books,Non-fiction,26.63,30,3.5,False,True
+PROD00022,Advanced Outdoo,Sports,Outdoor,253.22,45,13.38,False,False
+PROD00023,Modern Garde,Home & Garden,Garden,322.08,14,9.33,False,False
+PROD00024,Modern Mens Shirt,Clothing,Mens Shirts,147.98,90,7.85,False,False
+PROD00025,Advanced Gamin,Electronics,Gaming,133.13,30,19.26,False,False
+PROD00026,Deluxe ThinkPad Book,Electronics,Laptops,1809.97,30,10.31,True,False
+PROD00027,Deluxe Garde,Home & Garden,Garden,375.69,30,5.64,False,False
+PROD00028,Advanced Fictio,Books,Fiction,43.89,60,12.16,False,True
+PROD00029,Modern Accessorie,Clothing,Accessories,56.24,45,11.82,False,False
+PROD00030,Essential Winter Sport,Sports,Winter Sports,57.1,14,17.06,False,True
+PROD00031,Pro Mens Shirt,Clothing,Mens Shirts,159.84,60,6.54,False,True
+PROD00032,Ultra Mens Shirt,Clothing,Mens Shirts,223.89,60,15.14,False,False
+PROD00033,Modern Galaxy Pro,Electronics,Smartphones,1701.26,14,8.89,False,False
+PROD00034,Pro Jean,Clothing,Jeans,215.64,60,2.75,False,True
+PROD00035,Advanced Jean,Clothing,Jeans,142.5,45,4.59,False,True
+PROD00036,Classic Comic,Books,Comics,17.74,14,12.62,False,True
+PROD00037,Premium ThinkPad Pro,Electronics,Laptops,751.14,30,11.41,True,True
+PROD00038,Classic Water Sport,Sports,Water Sports,420.39,90,16.57,False,False
+PROD00039,Ultra Tool,Home & Garden,Tools,644.25,60,8.61,False,False
+PROD00040,Pro Camera,Electronics,Cameras,298.03,30,2.11,False,False
+PROD00041,Deluxe Camera,Electronics,Cameras,93.96,30,18.45,False,False
+PROD00042,Modern MacBook Air,Electronics,Laptops,1713.73,30,8.04,True,False
+PROD00043,Modern Water Sport,Sports,Water Sports,335.29,14,6.83,False,False
+PROD00044,Premium Jean,Clothing,Jeans,59.0,90,16.35,False,False
+PROD00045,Advanced MacBook Pro,Electronics,Laptops,724.4,14,19.0,True,True
+PROD00046,Premium Garde,Home & Garden,Garden,96.69,60,10.2,False,False
+PROD00047,Modern Childre,Books,Children,80.34,30,0.53,False,True
+PROD00048,Classic OnePlus Pro,Electronics,Smartphones,1127.37,14,7.8,False,False
+PROD00049,Essential Technica,Books,Technical,59.46,14,8.82,False,True
+PROD00050,Deluxe Team Sport,Sports,Team Sports,116.98,60,18.37,False,True
+PROD00051,Premium Mens Shirt,Clothing,Mens Shirts,83.6,90,11.4,False,True
+PROD00052,Pro Mens Shirt,Clothing,Mens Shirts,35.86,60,3.69,False,True
+PROD00053,Classic Beddin,Home & Garden,Bedding,798.5,30,12.16,False,False
+PROD00054,Pro Gamin,Electronics,Gaming,198.94,14,9.95,False,False
+PROD00055,Modern Technica,Books,Technical,94.73,90,5.92,False,True
+PROD00056,Modern Accessorie,Clothing,Accessories,109.28,90,10.12,False,True
+PROD00057,Advanced Deco,Home & Garden,Decor,234.63,30,18.25,False,True
+PROD00058,Classic Garde,Home & Garden,Garden,111.36,30,0.81,False,True
+PROD00059,Advanced Technica,Books,Technical,95.77,14,10.03,False,True
+PROD00060,Modern Tablet,Electronics,Tablets,1197.07,30,16.56,True,False
+PROD00061,Essential Tool,Home & Garden,Tools,403.86,60,7.75,False,True
+PROD00062,Essential Womens Dresse,Clothing,Womens Dresses,71.64,60,10.7,False,False
+PROD00063,Deluxe Camera,Electronics,Cameras,1877.59,30,18.46,False,False
+PROD00064,Essential Tablet,Electronics,Tablets,1738.2,14,16.17,False,False
+PROD00065,Modern Comic,Books,Comics,24.63,60,9.4,False,True
+PROD00066,Premium Womens Dresse,Clothing,Womens Dresses,98.6,45,1.8,False,True
+PROD00067,Deluxe Team Sport,Sports,Team Sports,296.26,14,12.35,False,False
+PROD00068,Modern Garde,Home & Garden,Garden,629.2,90,0.35,False,False
+PROD00069,Deluxe Cyclin,Sports,Cycling,422.1,30,8.93,False,True
+PROD00070,Advanced Fictio,Books,Fiction,13.33,45,9.66,False,True
+PROD00071,Essential Outdoo,Sports,Outdoor,52.83,14,5.6,False,False
+PROD00072,Ultra Headphone,Electronics,Headphones,553.11,30,5.26,False,False
+PROD00073,Ultra Activewea,Clothing,Activewear,61.13,90,13.15,False,True
+PROD00074,Premium Gamin,Electronics,Gaming,409.3,30,11.64,True,False
+PROD00075,Modern Gamin,Electronics,Gaming,1951.8,14,13.6,False,False
+PROD00076,Deluxe Outdoo,Sports,Outdoor,76.85,90,8.93,False,True
+PROD00077,Deluxe Womens Dresse,Clothing,Womens Dresses,179.7,60,1.52,False,False
+PROD00078,Premium Kitche,Home & Garden,Kitchen,271.33,45,6.77,False,False
+PROD00079,Modern Deco,Home & Garden,Decor,503.2,30,7.43,False,False
+PROD00080,Premium Accessorie,Clothing,Accessories,49.74,30,16.18,False,False
+PROD00081,Premium Shoe,Clothing,Shoes,203.98,30,7.68,False,True
+PROD00082,Essential MacBook Pro,Electronics,Laptops,1233.85,30,6.41,True,True
+PROD00083,Deluxe Kitche,Home & Garden,Kitchen,196.25,45,14.99,False,True
+PROD00084,Essential Shoe,Clothing,Shoes,121.33,45,11.25,False,True
+PROD00085,Advanced Garde,Home & Garden,Garden,490.1,60,15.75,False,True
+PROD00086,Classic Outdoo,Sports,Outdoor,393.81,60,13.51,False,True
+PROD00087,Modern Team Sport,Sports,Team Sports,187.25,14,1.72,False,False
+PROD00088,Advanced Outdoo,Sports,Outdoor,325.5,30,18.01,False,False
+PROD00089,Pro Inspiron Book,Electronics,Laptops,1542.74,30,14.88,True,False
+PROD00090,Ultra Fictio,Books,Fiction,99.09,30,10.35,False,True
+PROD00091,Essential Water Sport,Sports,Water Sports,193.32,60,13.97,False,True
+PROD00092,Deluxe Furnitur,Home & Garden,Furniture,719.48,45,11.87,False,True
+PROD00093,Deluxe OnePlus ,Electronics,Smartphones,1280.12,30,5.86,False,False
+PROD00094,Pro Activewea,Clothing,Activewear,62.63,14,11.91,False,False
+PROD00095,Deluxe Childre,Books,Children,49.47,90,14.48,False,True
+PROD00096,Classic Furnitur,Home & Garden,Furniture,248.42,45,1.06,False,False
+PROD00097,Essential Beddin,Home & Garden,Bedding,265.08,30,19.07,False,True
+PROD00098,Modern Shoe,Clothing,Shoes,181.04,90,6.36,False,False
+PROD00099,Pro Kitche,Home & Garden,Kitchen,240.96,60,8.83,False,True
+PROD00100,Pro Beddin,Home & Garden,Bedding,740.74,45,2.91,False,True
+PROD00101,Ultra Winter Sport,Sports,Winter Sports,37.99,14,19.2,False,True
+PROD00102,Premium Headphone,Electronics,Headphones,770.6,30,18.84,False,True
+PROD00103,Pro Educationa,Books,Educational,74.46,14,8.94,False,True
+PROD00104,Modern Childre,Books,Children,17.82,30,19.86,False,True
+PROD00105,Pro Tablet,Electronics,Tablets,1501.34,14,14.57,False,False
+PROD00106,Modern Team Sport,Sports,Team Sports,240.4,90,13.47,False,True
+PROD00107,Essential Furnitur,Home & Garden,Furniture,93.84,90,6.42,False,True
+PROD00108,Ultra Inspiron Air,Electronics,Laptops,1363.03,30,9.46,False,False
+PROD00109,Ultra Educationa,Books,Educational,27.87,14,19.02,False,True
+PROD00110,Essential Mens Shirt,Clothing,Mens Shirts,38.83,90,12.26,False,True
+PROD00111,Modern Headphone,Electronics,Headphones,1246.09,14,12.79,False,False
+PROD00112,Modern Kitche,Home & Garden,Kitchen,539.36,60,15.96,False,False
+PROD00113,Advanced Team Sport,Sports,Team Sports,165.32,30,2.34,False,False
+PROD00114,Deluxe Childre,Books,Children,32.27,60,2.4,False,True
+PROD00115,Pro Educationa,Books,Educational,41.28,60,14.13,False,True
+PROD00116,Essential Childre,Books,Children,71.85,14,5.89,False,True
+PROD00117,Essential Outdoo,Sports,Outdoor,53.88,45,5.31,False,False
+PROD00118,Advanced Childre,Books,Children,48.27,45,18.26,False,True
+PROD00119,Classic Deco,Home & Garden,Decor,281.78,14,6.24,False,False
+PROD00120,Ultra Accessorie,Clothing,Accessories,170.08,14,18.96,False,False
+PROD00121,Premium Accessorie,Clothing,Accessories,286.08,14,16.07,False,True
+PROD00122,Pro Beddin,Home & Garden,Bedding,529.12,90,4.29,False,True
+PROD00123,Essential Accessorie,Clothing,Accessories,260.72,30,5.87,False,True
+PROD00124,Essential Beddin,Home & Garden,Bedding,184.26,30,18.81,False,True
+PROD00125,Pro Camera,Electronics,Cameras,1027.92,30,0.94,False,True
+PROD00126,Classic Activewea,Clothing,Activewear,29.46,14,16.28,False,False
+PROD00127,Modern Non-fictio,Books,Non-fiction,87.58,14,1.57,False,True
+PROD00128,Premium Fictio,Books,Fiction,76.84,90,12.14,False,True
+PROD00129,Essential Mens Shirt,Clothing,Mens Shirts,74.4,90,17.2,False,False
+PROD00130,Premium Comic,Books,Comics,37.19,60,4.13,False,True
+PROD00131,Advanced Garde,Home & Garden,Garden,310.62,60,1.95,False,False
+PROD00132,Advanced Team Sport,Sports,Team Sports,160.1,90,10.18,False,False
+PROD00133,Essential Headphone,Electronics,Headphones,1905.34,14,9.1,True,True
+PROD00134,Advanced Educationa,Books,Educational,60.68,45,6.72,False,True
+PROD00135,Ultra iPhone ,Electronics,Smartphones,1207.15,14,2.91,False,False
+PROD00136,Modern Headphone,Electronics,Headphones,853.12,30,16.7,True,False
+PROD00137,Classic Tablet,Electronics,Tablets,1522.32,30,10.96,False,False
+PROD00138,Advanced Deco,Home & Garden,Decor,418.83,14,18.43,False,False
+PROD00139,Ultra Headphone,Electronics,Headphones,1525.93,14,10.45,True,False
+PROD00140,Pro Shoe,Clothing,Shoes,30.94,60,9.95,False,False
+PROD00141,Essential Activewea,Clothing,Activewear,131.83,45,2.44,False,False
+PROD00142,Deluxe Tool,Home & Garden,Tools,497.85,45,11.32,False,True
+PROD00143,Classic Jean,Clothing,Jeans,244.79,45,10.44,False,False
+PROD00144,Classic Childre,Books,Children,94.26,30,3.37,False,True
+PROD00145,Deluxe Fictio,Books,Fiction,47.47,30,9.46,False,True
+PROD00146,Classic Tablet,Electronics,Tablets,438.57,14,10.8,False,False
+PROD00147,Advanced Camera,Electronics,Cameras,1209.19,14,7.07,True,True
+PROD00148,Modern Jean,Clothing,Jeans,249.81,60,11.73,False,False
+PROD00149,Essential Tool,Home & Garden,Tools,748.43,90,10.87,False,True
+PROD00150,Ultra Camera,Electronics,Cameras,250.8,14,5.67,False,False
+PROD00151,Essential Accessorie,Clothing,Accessories,112.44,90,12.14,False,False
+PROD00152,Premium Womens Dresse,Clothing,Womens Dresses,239.34,30,1.92,False,True
+PROD00153,Advanced Womens Dresse,Clothing,Womens Dresses,264.89,45,1.65,False,True
+PROD00154,Advanced Accessorie,Clothing,Accessories,139.11,60,6.61,False,True
+PROD00155,Essential Accessorie,Clothing,Accessories,125.65,60,14.15,False,False
+PROD00156,Deluxe Tool,Home & Garden,Tools,431.59,90,16.86,False,True
+PROD00157,Ultra Garde,Home & Garden,Garden,674.3,90,8.89,False,False
+PROD00158,Essential Camera,Electronics,Cameras,1321.58,14,0.6,False,False
+PROD00159,Classic Non-fictio,Books,Non-fiction,44.42,30,18.67,False,True
+PROD00160,Advanced Surface Air,Electronics,Laptops,60.95,30,6.64,False,True
+PROD00161,Premium Team Sport,Sports,Team Sports,332.43,60,8.03,False,False
+PROD00162,Premium Garde,Home & Garden,Garden,777.35,14,17.28,False,False
+PROD00163,Advanced Cyclin,Sports,Cycling,257.89,60,15.02,False,True
+PROD00164,Premium Tablet,Electronics,Tablets,1245.19,14,14.14,True,False
+PROD00165,Pro Headphone,Electronics,Headphones,159.29,14,6.35,False,False
+PROD00166,Premium Cyclin,Sports,Cycling,183.02,45,17.96,False,True
+PROD00167,Deluxe Cyclin,Sports,Cycling,270.26,60,8.39,False,True
+PROD00168,Ultra Surface Pro,Electronics,Laptops,386.54,14,5.58,True,True
+PROD00169,Modern Tablet,Electronics,Tablets,1143.09,14,6.89,True,True
+PROD00170,Ultra Galaxy Max,Electronics,Smartphones,669.13,14,15.36,True,False
+PROD00171,Pro Deco,Home & Garden,Decor,703.6,30,6.22,False,True
+PROD00172,Premium Jean,Clothing,Jeans,126.21,45,3.64,False,True
+PROD00173,Essential Team Sport,Sports,Team Sports,132.33,30,5.53,False,True
+PROD00174,Modern Jean,Clothing,Jeans,215.32,45,1.94,False,False
+PROD00175,Deluxe Team Sport,Sports,Team Sports,391.88,90,9.05,False,True
+PROD00176,Essential Camera,Electronics,Cameras,353.62,14,19.88,False,False
+PROD00177,Modern Jean,Clothing,Jeans,45.41,30,5.24,False,False
+PROD00178,Pro Furnitur,Home & Garden,Furniture,420.87,30,9.56,False,False
+PROD00179,Deluxe Team Sport,Sports,Team Sports,292.79,90,18.04,False,False
+PROD00180,Deluxe Gamin,Electronics,Gaming,1745.19,14,3.26,False,False
+PROD00181,Deluxe Surface Air,Electronics,Laptops,960.34,14,15.07,False,False
+PROD00182,Classic Childre,Books,Children,32.73,45,12.06,False,True
+PROD00183,Essential Technica,Books,Technical,37.02,30,15.29,False,True
+PROD00184,Essential Fitnes,Sports,Fitness,227.3,45,19.08,False,False
+PROD00185,Ultra Fitnes,Sports,Fitness,268.3,45,17.74,False,True
+PROD00186,Ultra Outdoo,Sports,Outdoor,340.12,14,19.41,False,False
+PROD00187,Advanced Jean,Clothing,Jeans,130.88,60,0.12,False,True
+PROD00188,Modern Womens Dresse,Clothing,Womens Dresses,106.11,30,4.8,False,True
+PROD00189,Classic Fictio,Books,Fiction,23.87,90,16.93,False,True
+PROD00190,Advanced Furnitur,Home & Garden,Furniture,140.07,14,9.47,False,False
+PROD00191,Essential Shoe,Clothing,Shoes,252.78,30,15.28,False,True
+PROD00192,Deluxe Non-fictio,Books,Non-fiction,78.67,30,8.06,False,True
+PROD00193,Essential Beddin,Home & Garden,Bedding,483.6,90,1.53,False,False
+PROD00194,Classic Fitnes,Sports,Fitness,445.65,30,15.38,False,False
+PROD00195,Premium Beddin,Home & Garden,Bedding,494.29,60,18.3,False,True
+PROD00196,Classic Shoe,Clothing,Shoes,32.39,45,8.76,False,False
+PROD00197,Ultra Technica,Books,Technical,48.31,45,6.29,False,True
+PROD00198,Modern Fictio,Books,Fiction,96.27,60,3.67,False,True
+PROD00199,Pro Technica,Books,Technical,51.84,14,6.99,False,True
+PROD00200,Essential Gamin,Electronics,Gaming,1616.92,14,3.3,True,False
+PROD00201,Essential Headphone,Electronics,Headphones,873.79,14,6.13,False,False
+PROD00202,Deluxe Water Sport,Sports,Water Sports,395.98,45,16.9,False,False
+PROD00203,Essential Inspiron Pro,Electronics,Laptops,343.26,30,18.97,False,False
+PROD00204,Advanced Winter Sport,Sports,Winter Sports,231.57,60,5.71,False,True
+PROD00205,Deluxe Childre,Books,Children,14.51,90,13.76,False,True
+PROD00206,Deluxe Deco,Home & Garden,Decor,544.87,14,10.9,False,True
+PROD00207,Essential Beddin,Home & Garden,Bedding,28.75,45,6.02,False,True
+PROD00208,Deluxe Fitnes,Sports,Fitness,372.65,90,14.8,False,True
+PROD00209,Pro Mens Shirt,Clothing,Mens Shirts,55.3,30,12.7,False,False
+PROD00210,Advanced Beddin,Home & Garden,Bedding,555.86,30,18.38,False,False
+PROD00211,Deluxe Pixel Pro,Electronics,Smartphones,336.16,14,7.7,True,False
+PROD00212,Premium Childre,Books,Children,26.55,45,14.46,False,True
+PROD00213,Pro Headphone,Electronics,Headphones,1597.61,30,19.9,True,False
+PROD00214,Advanced Tool,Home & Garden,Tools,183.94,60,5.57,False,True
+PROD00215,Premium Tool,Home & Garden,Tools,489.63,30,13.6,False,False
+PROD00216,Classic Headphone,Electronics,Headphones,86.5,30,13.18,False,False
+PROD00217,Deluxe Cyclin,Sports,Cycling,71.15,30,0.46,False,False
+PROD00218,Modern Mens Shirt,Clothing,Mens Shirts,223.89,90,16.56,False,False
+PROD00219,Essential Team Sport,Sports,Team Sports,250.91,90,0.35,False,False
+PROD00220,Advanced Beddin,Home & Garden,Bedding,134.15,60,4.29,False,True
+PROD00221,Essential Educationa,Books,Educational,12.9,90,19.36,False,True
+PROD00222,Deluxe Comic,Books,Comics,17.48,90,7.45,False,True
+PROD00223,Advanced Beddin,Home & Garden,Bedding,544.48,14,3.2,False,True
+PROD00224,Essential Team Sport,Sports,Team Sports,222.31,14,15.05,False,False
+PROD00225,Advanced Cyclin,Sports,Cycling,495.1,60,18.43,False,True
+PROD00226,Pro Comic,Books,Comics,18.73,30,4.3,False,True
+PROD00227,Modern Camera,Electronics,Cameras,398.31,14,15.36,False,False
+PROD00228,Modern Shoe,Clothing,Shoes,109.43,45,12.64,False,False
+PROD00229,Essential Winter Sport,Sports,Winter Sports,131.92,60,9.95,False,False
+PROD00230,Ultra Deco,Home & Garden,Decor,740.27,30,8.06,False,True
+PROD00231,Advanced Team Sport,Sports,Team Sports,336.69,14,7.73,False,False
+PROD00232,Classic Childre,Books,Children,67.28,90,4.56,False,True
+PROD00233,Pro Winter Sport,Sports,Winter Sports,309.79,60,18.92,False,False
+PROD00234,Ultra Outdoo,Sports,Outdoor,295.42,60,13.72,False,False
+PROD00235,Essential Gamin,Electronics,Gaming,1126.51,14,17.02,True,False
+PROD00236,Advanced Womens Dresse,Clothing,Womens Dresses,282.4,30,6.52,False,False
+PROD00237,Classic OnePlus ,Electronics,Smartphones,527.84,30,19.8,True,True
+PROD00238,Ultra Team Sport,Sports,Team Sports,141.31,14,0.24,False,True
+PROD00239,Advanced Comic,Books,Comics,87.6,14,15.68,False,True
+PROD00240,Pro Garde,Home & Garden,Garden,576.9,90,12.98,False,True
+PROD00241,Premium Childre,Books,Children,36.37,60,16.58,False,True
+PROD00242,Essential Tablet,Electronics,Tablets,1447.42,30,8.63,True,False
+PROD00243,Pro Jean,Clothing,Jeans,222.16,45,8.32,False,False
+PROD00244,Advanced Womens Dresse,Clothing,Womens Dresses,78.82,14,6.67,False,True
+PROD00245,Advanced Technica,Books,Technical,77.73,45,6.91,False,True
+PROD00246,Advanced Educationa,Books,Educational,72.96,90,5.58,False,True
+PROD00247,Ultra Surface Pro,Electronics,Laptops,480.99,30,11.31,False,True
+PROD00248,Modern Cyclin,Sports,Cycling,250.76,60,13.5,False,True
+PROD00249,Modern Womens Dresse,Clothing,Womens Dresses,260.56,45,12.77,False,True
+PROD00250,Modern Accessorie,Clothing,Accessories,61.54,14,5.26,False,False
+PROD00251,Ultra Comic,Books,Comics,97.52,30,11.78,False,True
+PROD00252,Deluxe Team Sport,Sports,Team Sports,204.54,60,13.0,False,False
+PROD00253,Essential Shoe,Clothing,Shoes,23.99,14,6.91,False,False
+PROD00254,Ultra Womens Dresse,Clothing,Womens Dresses,97.93,14,13.03,False,False
+PROD00255,Premium Childre,Books,Children,85.6,90,17.97,False,True
+PROD00256,Premium Jean,Clothing,Jeans,131.58,14,19.05,False,True
+PROD00257,Pro Tool,Home & Garden,Tools,776.79,14,8.99,False,True
+PROD00258,Ultra Jean,Clothing,Jeans,213.12,30,4.64,False,False
+PROD00259,Modern Mens Shirt,Clothing,Mens Shirts,174.55,14,14.89,False,True
+PROD00260,Modern Accessorie,Clothing,Accessories,37.04,30,4.95,False,False
+PROD00261,Premium Fictio,Books,Fiction,38.7,14,4.01,False,True
+PROD00262,Pro Headphone,Electronics,Headphones,978.27,14,10.89,True,False
+PROD00263,Essential Fitnes,Sports,Fitness,434.04,14,14.43,False,False
+PROD00264,Advanced Accessorie,Clothing,Accessories,297.83,45,15.12,False,False
+PROD00265,Ultra Technica,Books,Technical,39.58,60,10.33,False,True
+PROD00266,Classic Beddin,Home & Garden,Bedding,282.8,90,10.11,False,False
+PROD00267,Advanced MacBook Book,Electronics,Laptops,1792.07,30,9.97,True,False
+PROD00268,Modern Technica,Books,Technical,18.51,60,6.91,False,True
+PROD00269,Classic Outdoo,Sports,Outdoor,394.93,30,4.34,False,False
+PROD00270,Advanced Tool,Home & Garden,Tools,95.79,45,18.56,False,True
+PROD00271,Ultra Cyclin,Sports,Cycling,178.79,30,15.35,False,True
+PROD00272,Ultra Accessorie,Clothing,Accessories,111.19,90,19.62,False,False
+PROD00273,Modern Kitche,Home & Garden,Kitchen,385.51,45,7.48,False,False
+PROD00274,Deluxe Garde,Home & Garden,Garden,665.95,45,9.05,False,False
+PROD00275,Essential Water Sport,Sports,Water Sports,27.69,60,1.2,False,False
+PROD00276,Ultra Garde,Home & Garden,Garden,780.36,45,0.49,False,True
+PROD00277,Modern Activewea,Clothing,Activewear,102.54,45,0.57,False,False
+PROD00278,Classic Educationa,Books,Educational,81.77,90,10.11,False,True
+PROD00279,Pro Furnitur,Home & Garden,Furniture,205.86,45,14.48,False,False
+PROD00280,Essential Gamin,Electronics,Gaming,1391.21,30,5.07,False,False
+PROD00281,Deluxe Pixel Plus,Electronics,Smartphones,904.34,30,2.31,True,False
+PROD00282,Essential Garde,Home & Garden,Garden,662.08,30,11.84,False,True
+PROD00283,Advanced Fitnes,Sports,Fitness,141.48,90,10.98,False,False
+PROD00284,Modern Winter Sport,Sports,Winter Sports,352.55,30,15.46,False,True
+PROD00285,Advanced Beddin,Home & Garden,Bedding,601.61,30,3.76,False,False
+PROD00286,Deluxe Shoe,Clothing,Shoes,113.24,45,5.18,False,True
+PROD00287,Essential Mens Shirt,Clothing,Mens Shirts,139.65,60,15.98,False,True
+PROD00288,Premium Team Sport,Sports,Team Sports,293.71,14,19.2,False,False
+PROD00289,Modern Water Sport,Sports,Water Sports,298.04,14,14.72,False,True
+PROD00290,Ultra Fitnes,Sports,Fitness,404.33,14,11.52,False,False
+PROD00291,Classic Cyclin,Sports,Cycling,382.16,60,16.37,False,False
+PROD00292,Ultra Technica,Books,Technical,68.54,14,3.72,False,True
+PROD00293,Advanced Team Sport,Sports,Team Sports,275.66,60,17.8,False,False
+PROD00294,Premium Team Sport,Sports,Team Sports,321.25,60,0.48,False,True
+PROD00295,Ultra Deco,Home & Garden,Decor,218.2,30,11.73,False,False
+PROD00296,Classic Water Sport,Sports,Water Sports,390.72,90,18.51,False,True
+PROD00297,Classic Womens Dresse,Clothing,Womens Dresses,106.37,14,0.62,False,True
+PROD00298,Deluxe Accessorie,Clothing,Accessories,287.3,45,17.42,False,True
+PROD00299,Modern Womens Dresse,Clothing,Womens Dresses,65.72,45,4.74,False,True
+PROD00300,Ultra Furnitur,Home & Garden,Furniture,703.95,60,2.55,False,False
+PROD00301,Classic Headphone,Electronics,Headphones,791.81,30,8.83,True,False
+PROD00302,Pro Comic,Books,Comics,18.36,30,10.18,False,True
+PROD00303,Pro Cyclin,Sports,Cycling,102.37,30,2.5,False,False
+PROD00304,Deluxe Team Sport,Sports,Team Sports,222.19,30,19.7,False,False
+PROD00305,Pro Educationa,Books,Educational,95.04,14,0.24,False,True
+PROD00306,Pro Childre,Books,Children,41.92,45,16.75,False,True
+PROD00307,Modern Technica,Books,Technical,30.64,14,13.04,False,True
+PROD00308,Premium Childre,Books,Children,95.62,45,14.62,False,True
+PROD00309,Ultra Furnitur,Home & Garden,Furniture,680.22,30,11.34,False,True
+PROD00310,Ultra Outdoo,Sports,Outdoor,355.16,14,1.32,False,True
+PROD00311,Essential Beddin,Home & Garden,Bedding,661.25,60,3.53,False,True
+PROD00312,Pro Jean,Clothing,Jeans,240.24,14,10.0,False,False
+PROD00313,Deluxe Technica,Books,Technical,91.81,45,12.48,False,True
+PROD00314,Deluxe Galaxy ,Electronics,Smartphones,116.73,14,18.28,True,True
+PROD00315,Premium Mens Shirt,Clothing,Mens Shirts,117.63,30,1.93,False,True
+PROD00316,Advanced Headphone,Electronics,Headphones,1967.57,30,2.77,True,False
+PROD00317,Ultra Educationa,Books,Educational,39.06,90,7.38,False,True
+PROD00318,Pro Cyclin,Sports,Cycling,251.95,90,4.01,False,True
+PROD00319,Ultra Outdoo,Sports,Outdoor,132.14,14,14.89,False,False
+PROD00320,Pro Tool,Home & Garden,Tools,211.08,45,3.77,False,False
+PROD00321,Advanced Garde,Home & Garden,Garden,539.66,90,10.39,False,False
+PROD00322,Essential Jean,Clothing,Jeans,124.94,30,11.63,False,True
+PROD00323,Premium Technica,Books,Technical,81.48,30,0.39,False,True
+PROD00324,Ultra Inspiron Book,Electronics,Laptops,72.84,30,9.73,False,False
+PROD00325,Advanced Water Sport,Sports,Water Sports,496.53,60,12.46,False,False
+PROD00326,Modern Gamin,Electronics,Gaming,1328.15,30,6.81,True,False
+PROD00327,Advanced Comic,Books,Comics,69.69,45,15.29,False,True
+PROD00328,Deluxe Furnitur,Home & Garden,Furniture,349.81,14,19.3,False,True
+PROD00329,Advanced MacBook Pro,Electronics,Laptops,1123.41,30,2.61,False,False
+PROD00330,Pro Comic,Books,Comics,96.97,90,3.73,False,True
+PROD00331,Ultra Outdoo,Sports,Outdoor,424.01,30,15.54,False,True
+PROD00332,Ultra Tool,Home & Garden,Tools,456.86,90,10.55,False,False
+PROD00333,Ultra Outdoo,Sports,Outdoor,202.87,14,13.64,False,True
+PROD00334,Essential Accessorie,Clothing,Accessories,260.32,45,1.07,False,False
+PROD00335,Essential Deco,Home & Garden,Decor,716.59,60,6.51,False,False
+PROD00336,Modern Pixel Max,Electronics,Smartphones,1849.95,14,1.28,False,False
+PROD00337,Ultra Shoe,Clothing,Shoes,234.09,30,7.89,False,True
+PROD00338,Classic Childre,Books,Children,32.37,45,1.5,False,True
+PROD00339,Essential Kitche,Home & Garden,Kitchen,111.93,90,18.89,False,True
+PROD00340,Ultra Shoe,Clothing,Shoes,208.23,45,0.31,False,True
+PROD00341,Pro Team Sport,Sports,Team Sports,391.54,90,9.48,False,False
+PROD00342,Advanced Furnitur,Home & Garden,Furniture,135.64,45,17.52,False,True
+PROD00343,Pro Educationa,Books,Educational,66.42,60,11.74,False,True
+PROD00344,Classic Educationa,Books,Educational,57.06,14,19.95,False,True
+PROD00345,Deluxe Winter Sport,Sports,Winter Sports,139.61,60,16.75,False,False
+PROD00346,Pro Fictio,Books,Fiction,87.87,45,16.86,False,True
+PROD00347,Deluxe Beddin,Home & Garden,Bedding,344.42,45,19.66,False,True
+PROD00348,Advanced iPhone ,Electronics,Smartphones,481.71,30,13.35,True,False
+PROD00349,Essential Winter Sport,Sports,Winter Sports,45.0,14,11.85,False,True
+PROD00350,Pro Fitnes,Sports,Fitness,484.2,30,7.28,False,False
+PROD00351,Premium Technica,Books,Technical,41.26,60,17.06,False,True
+PROD00352,Premium Winter Sport,Sports,Winter Sports,471.59,60,13.41,False,True
+PROD00353,Ultra Accessorie,Clothing,Accessories,26.76,45,2.07,False,False
+PROD00354,Advanced Gamin,Electronics,Gaming,1706.39,30,7.24,False,True
+PROD00355,Premium Deco,Home & Garden,Decor,269.74,45,15.4,False,True
+PROD00356,Deluxe Accessorie,Clothing,Accessories,227.4,45,15.64,False,True
+PROD00357,Deluxe Fictio,Books,Fiction,41.66,90,14.82,False,True
+PROD00358,Modern Jean,Clothing,Jeans,48.36,14,12.83,False,False
+PROD00359,Ultra Water Sport,Sports,Water Sports,384.37,30,5.37,False,False
+PROD00360,Advanced Beddin,Home & Garden,Bedding,718.19,30,19.19,False,False
+PROD00361,Classic Pixel Plus,Electronics,Smartphones,1525.7,14,8.02,True,False
+PROD00362,Essential Pixel Max,Electronics,Smartphones,1445.98,30,8.0,False,False
+PROD00363,Pro Tool,Home & Garden,Tools,269.21,30,8.91,False,True
+PROD00364,Ultra Accessorie,Clothing,Accessories,206.91,45,0.62,False,True
+PROD00365,Classic Womens Dresse,Clothing,Womens Dresses,143.3,30,2.99,False,False
+PROD00366,Advanced Mens Shirt,Clothing,Mens Shirts,254.62,60,11.17,False,True
+PROD00367,Essential Non-fictio,Books,Non-fiction,66.45,60,14.96,False,True
+PROD00368,Essential Beddin,Home & Garden,Bedding,305.63,30,6.47,False,False
+PROD00369,Ultra Gamin,Electronics,Gaming,677.24,14,15.93,True,False
+PROD00370,Advanced Cyclin,Sports,Cycling,279.3,14,16.16,False,True
+PROD00371,Classic Garde,Home & Garden,Garden,380.25,90,16.75,False,False
+PROD00372,Advanced Water Sport,Sports,Water Sports,305.75,14,19.07,False,True
+PROD00373,Advanced Camera,Electronics,Cameras,1140.04,14,17.93,False,False
+PROD00374,Deluxe Gamin,Electronics,Gaming,177.55,30,11.44,True,False
+PROD00375,Classic Shoe,Clothing,Shoes,205.3,45,10.81,False,False
+PROD00376,Essential Kitche,Home & Garden,Kitchen,128.22,90,19.61,False,False
+PROD00377,Premium Camera,Electronics,Cameras,1438.62,30,11.79,True,False
+PROD00378,Ultra Water Sport,Sports,Water Sports,372.96,30,19.6,False,True
+PROD00379,Advanced Mens Shirt,Clothing,Mens Shirts,224.03,45,1.87,False,False
+PROD00380,Essential Cyclin,Sports,Cycling,407.33,60,13.96,False,True
+PROD00381,Pro Kitche,Home & Garden,Kitchen,259.29,30,14.17,False,False
+PROD00382,Ultra Fictio,Books,Fiction,33.45,30,4.61,False,True
+PROD00383,Advanced Tablet,Electronics,Tablets,1516.04,30,0.51,True,False
+PROD00384,Ultra Furnitur,Home & Garden,Furniture,16.36,90,0.35,False,False
+PROD00385,Premium Educationa,Books,Educational,82.0,90,11.31,False,True
+PROD00386,Classic Inspiron Air,Electronics,Laptops,1093.67,30,2.03,True,True
+PROD00387,Ultra Technica,Books,Technical,55.66,60,0.7,False,True
+PROD00388,Pro Camera,Electronics,Cameras,1624.05,30,18.71,True,True
+PROD00389,Ultra Winter Sport,Sports,Winter Sports,452.61,60,3.94,False,True
+PROD00390,Advanced Team Sport,Sports,Team Sports,466.09,90,16.65,False,False
+PROD00391,Pro Gamin,Electronics,Gaming,709.77,30,2.91,False,False
+PROD00392,Deluxe Fictio,Books,Fiction,15.28,60,16.24,False,True
+PROD00393,Pro Fitnes,Sports,Fitness,340.17,45,18.25,False,False
+PROD00394,Classic Cyclin,Sports,Cycling,159.22,30,9.01,False,True
+PROD00395,Essential Garde,Home & Garden,Garden,332.33,60,1.74,False,True
+PROD00396,Deluxe Fictio,Books,Fiction,60.51,90,7.84,False,True
+PROD00397,Premium Educationa,Books,Educational,57.48,14,3.84,False,True
+PROD00398,Ultra Tablet,Electronics,Tablets,1299.82,14,10.73,True,False
+PROD00399,Premium Jean,Clothing,Jeans,250.65,60,14.8,False,True
+PROD00400,Premium Team Sport,Sports,Team Sports,457.56,14,9.2,False,True
+PROD00401,Deluxe Activewea,Clothing,Activewear,40.43,30,9.96,False,True
+PROD00402,Classic Headphone,Electronics,Headphones,1805.63,14,18.49,True,False
+PROD00403,Essential Kitche,Home & Garden,Kitchen,663.86,45,18.36,False,False
+PROD00404,Ultra ThinkPad Book,Electronics,Laptops,1769.79,30,13.64,False,False
+PROD00405,Premium Deco,Home & Garden,Decor,341.47,60,7.6,False,True
+PROD00406,Premium Educationa,Books,Educational,66.39,60,0.93,False,True
+PROD00407,Classic Non-fictio,Books,Non-fiction,16.35,14,2.39,False,True
+PROD00408,Ultra Fictio,Books,Fiction,58.32,30,18.88,False,True
+PROD00409,Essential Garde,Home & Garden,Garden,238.57,45,5.77,False,False
+PROD00410,Essential iPhone Pro,Electronics,Smartphones,1131.76,30,4.1,True,False
+PROD00411,Classic Galaxy ,Electronics,Smartphones,409.73,14,4.91,False,True
+PROD00412,Premium Comic,Books,Comics,69.66,90,15.36,False,True
+PROD00413,Deluxe Womens Dresse,Clothing,Womens Dresses,32.25,14,18.98,False,False
+PROD00414,Deluxe Kitche,Home & Garden,Kitchen,377.7,14,7.89,False,True
+PROD00415,Pro Tool,Home & Garden,Tools,191.81,30,6.78,False,False
+PROD00416,Pro Headphone,Electronics,Headphones,1694.67,30,11.18,True,True
+PROD00417,Pro Gamin,Electronics,Gaming,849.35,14,12.41,True,False
+PROD00418,Pro ThinkPad Pro,Electronics,Laptops,793.37,14,16.29,True,False
+PROD00419,Pro Camera,Electronics,Cameras,88.6,30,18.75,False,False
+PROD00420,Classic Technica,Books,Technical,71.46,90,5.08,False,True
+PROD00421,Ultra Childre,Books,Children,50.88,45,4.55,False,True
+PROD00422,Ultra Garde,Home & Garden,Garden,770.99,60,19.98,False,True
+PROD00423,Premium Garde,Home & Garden,Garden,353.91,45,2.97,False,False
+PROD00424,Classic Technica,Books,Technical,98.87,30,16.82,False,True
+PROD00425,Essential Kitche,Home & Garden,Kitchen,345.6,60,9.27,False,False
+PROD00426,Advanced Childre,Books,Children,42.72,45,13.34,False,True
+PROD00427,Classic Activewea,Clothing,Activewear,88.88,30,11.41,False,False
+PROD00428,Essential Comic,Books,Comics,43.73,45,4.35,False,True
+PROD00429,Pro Shoe,Clothing,Shoes,171.99,60,6.08,False,False
+PROD00430,Classic Surface Air,Electronics,Laptops,1336.32,30,3.69,False,False
+PROD00431,Ultra Shoe,Clothing,Shoes,96.53,90,15.41,False,False
+PROD00432,Ultra Outdoo,Sports,Outdoor,220.36,60,4.99,False,True
+PROD00433,Premium Educationa,Books,Educational,70.86,14,1.81,False,True
+PROD00434,Deluxe Galaxy Plus,Electronics,Smartphones,1866.55,30,4.14,True,False
+PROD00435,Deluxe Furnitur,Home & Garden,Furniture,504.24,45,11.71,False,False
+PROD00436,Ultra Educationa,Books,Educational,36.08,14,16.07,False,True
+PROD00437,Ultra Womens Dresse,Clothing,Womens Dresses,136.25,90,18.21,False,False
+PROD00438,Advanced Accessorie,Clothing,Accessories,215.96,45,13.83,False,True
+PROD00439,Ultra Gamin,Electronics,Gaming,1822.91,14,15.14,True,False
+PROD00440,Ultra Childre,Books,Children,79.04,90,13.79,False,True
+PROD00441,Ultra Deco,Home & Garden,Decor,366.16,14,19.41,False,False
+PROD00442,Deluxe Furnitur,Home & Garden,Furniture,69.08,30,12.52,False,False
+PROD00443,Classic Mens Shirt,Clothing,Mens Shirts,289.24,45,5.92,False,True
+PROD00444,Advanced Tool,Home & Garden,Tools,27.53,90,8.41,False,True
+PROD00445,Classic Beddin,Home & Garden,Bedding,418.04,90,18.1,False,True
+PROD00446,Ultra Educationa,Books,Educational,14.68,30,14.04,False,True
+PROD00447,Essential Deco,Home & Garden,Decor,279.95,45,15.02,False,False
+PROD00448,Premium Tablet,Electronics,Tablets,304.77,14,14.72,True,False
+PROD00449,Essential Shoe,Clothing,Shoes,128.75,45,13.97,False,False
+PROD00450,Essential Tool,Home & Garden,Tools,334.65,45,2.73,False,False
+PROD00451,Classic Tool,Home & Garden,Tools,398.73,45,1.76,False,False
+PROD00452,Deluxe Gamin,Electronics,Gaming,1729.88,14,0.56,True,False
+PROD00453,Ultra Mens Shirt,Clothing,Mens Shirts,124.55,30,11.48,False,True
+PROD00454,Premium Galaxy Plus,Electronics,Smartphones,1746.81,14,3.21,False,True
+PROD00455,Premium Fitnes,Sports,Fitness,359.47,30,18.37,False,True
+PROD00456,Pro Mens Shirt,Clothing,Mens Shirts,21.08,30,4.28,False,True
+PROD00457,Classic Educationa,Books,Educational,52.84,30,14.19,False,True
+PROD00458,Ultra Comic,Books,Comics,52.23,90,17.31,False,True
+PROD00459,Ultra Headphone,Electronics,Headphones,1039.79,14,3.6,True,True
+PROD00460,Classic Winter Sport,Sports,Winter Sports,357.48,14,3.85,False,False
+PROD00461,Essential Womens Dresse,Clothing,Womens Dresses,197.88,90,6.0,False,False
+PROD00462,Modern Cyclin,Sports,Cycling,128.67,45,16.51,False,True
+PROD00463,Modern Fitnes,Sports,Fitness,158.69,30,1.39,False,True
+PROD00464,Premium Educationa,Books,Educational,65.79,60,1.69,False,True
+PROD00465,Pro Fictio,Books,Fiction,38.66,45,13.99,False,True
+PROD00466,Pro Cyclin,Sports,Cycling,295.37,45,9.07,False,False
+PROD00467,Modern Deco,Home & Garden,Decor,614.28,45,10.96,False,True
+PROD00468,Ultra Accessorie,Clothing,Accessories,31.96,45,8.25,False,False
+PROD00469,Advanced Deco,Home & Garden,Decor,696.92,60,9.1,False,True
+PROD00470,Premium Childre,Books,Children,88.6,45,7.69,False,True
+PROD00471,Deluxe Shoe,Clothing,Shoes,23.91,30,3.11,False,True
+PROD00472,Premium Mens Shirt,Clothing,Mens Shirts,129.56,30,5.49,False,True
+PROD00473,Essential Headphone,Electronics,Headphones,358.72,30,4.63,False,False
+PROD00474,Advanced Non-fictio,Books,Non-fiction,97.22,14,7.13,False,True
+PROD00475,Deluxe OnePlus Plus,Electronics,Smartphones,325.88,30,16.09,False,True
+PROD00476,Ultra Garde,Home & Garden,Garden,280.79,45,13.71,False,False
+PROD00477,Ultra Fitnes,Sports,Fitness,276.58,45,14.52,False,True
+PROD00478,Advanced Tool,Home & Garden,Tools,64.55,60,7.46,False,True
+PROD00479,Classic Jean,Clothing,Jeans,274.84,45,12.71,False,False
+PROD00480,Deluxe Tool,Home & Garden,Tools,468.12,45,14.0,False,True
+PROD00481,Classic Garde,Home & Garden,Garden,570.86,90,4.82,False,True
+PROD00482,Advanced Comic,Books,Comics,90.15,45,10.27,False,True
+PROD00483,Ultra Headphone,Electronics,Headphones,1266.03,14,10.63,False,True
+PROD00484,Classic Childre,Books,Children,81.22,45,14.27,False,True
+PROD00485,Advanced Furnitur,Home & Garden,Furniture,208.57,14,6.61,False,False
+PROD00486,Modern Outdoo,Sports,Outdoor,479.42,60,19.71,False,True
+PROD00487,Pro Accessorie,Clothing,Accessories,102.77,14,14.74,False,True
+PROD00488,Modern Winter Sport,Sports,Winter Sports,142.91,60,8.52,False,True
+PROD00489,Classic Beddin,Home & Garden,Bedding,128.09,14,0.67,False,False
+PROD00490,Advanced Tablet,Electronics,Tablets,1562.8,14,8.99,False,False
+PROD00491,Deluxe Water Sport,Sports,Water Sports,76.18,45,9.17,False,True
+PROD00492,Modern Water Sport,Sports,Water Sports,102.38,30,6.52,False,True
+PROD00493,Deluxe OnePlus Plus,Electronics,Smartphones,326.42,30,11.05,False,False
+PROD00494,Premium Jean,Clothing,Jeans,200.21,45,11.36,False,True
+PROD00495,Ultra Fitnes,Sports,Fitness,260.92,14,2.88,False,True
+PROD00496,Classic Outdoo,Sports,Outdoor,68.63,45,19.45,False,False
+PROD00497,Deluxe Headphone,Electronics,Headphones,1514.16,30,8.07,True,False
+PROD00498,Pro Accessorie,Clothing,Accessories,248.02,60,3.27,False,False
+PROD00499,Premium Womens Dresse,Clothing,Womens Dresses,200.53,90,0.58,False,True
+PROD00500,Premium Fictio,Books,Fiction,29.71,30,19.0,False,True

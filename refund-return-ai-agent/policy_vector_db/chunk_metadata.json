@@ -1,0 +1,760 @@
+[
+  {
+    "content": "## 1. PURPOSE\n\nThis document establishes the tier-based benefits system for return and refund processing, ensuring that loyal customers receive enhanced service levels while maintaining operational efficiency and fairness.\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "1. PURPOSE\n\nThis document establishes the tier-based benefits system for return and refund processing, ensuring that loyal customers receive enhanced service levels while maintaining operational efficiency and fairness.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 2. SCOPE\n\nThis policy applies to all customers with established tier status (Bronze, Silver, Gold, Platinum) and covers enhanced benefits for return processing, refund calculations, and customer service interactions.\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "2. SCOPE\n\nThis policy applies to all customers with established tier status (Bronze, Silver, Gold, Platinum) and covers enhanced benefits for return processing, refund calculations, and customer service interactions.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [],
+    "customer_tiers": [
+      "Bronze",
+      "Silver",
+      "Gold",
+      "Platinum"
+    ]
+  },
+  {
+    "content": "## 3. CUSTOMER TIER CLASSIFICATION\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "3. CUSTOMER TIER CLASSIFICATION",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 4. TIER-SPECIFIC RETURN BENEFITS\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "4. TIER-SPECIFIC RETURN BENEFITS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 5. BENEFIT APPLICATION RULES\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "5. BENEFIT APPLICATION RULES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 6. BENEFIT VERIFICATION PROCESS\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "6. BENEFIT VERIFICATION PROCESS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 7. TIER BENEFIT EXAMPLES\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "7. TIER BENEFIT EXAMPLES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 8. SEASONAL AND PROMOTIONAL BENEFITS\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "8. SEASONAL AND PROMOTIONAL BENEFITS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 9. COMMUNICATION PROTOCOLS\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "9. COMMUNICATION PROTOCOLS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 10. PERFORMANCE MONITORING\n\n",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "10. PERFORMANCE MONITORING",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "```\nCustomer: MARWIL0205 (Silver Tier)\nRequest: Return $300 laptop, change of mind, day 32 (2 days past window)\nProcessing:\n- 7-day grace period applied \u2192 Request approved\n- 15% restocking fee = $45\n- Silver 10% reduction = $4.50 discount\n- Final restocking fee: $40.50\n- Free return shipping: $15 value\n- Priority processing: 2-day turnaround\n```",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "Examples",
+    "subsection": "example_1",
+    "chunk_type": "example",
+    "keywords": [
+      "restocking fee",
+      "grace period",
+      "shipping"
+    ],
+    "categories": [],
+    "customer_tiers": [
+      "Silver"
+    ]
+  },
+  {
+    "content": "```\nCustomer: CHRORT0466 (Gold Tier)\nRequest: Return $800 camera, minor cosmetic damage, day 45 (15 days past window)\nProcessing:\n- 14-day grace period applied \u2192 Request approved\n- 10% condition deduction = $80\n- Gold 15% reduction = $12 discount\n- Final deduction: $68\n- Refund amount: $732\n- Free expedited return shipping\n- 1-day processing time\n```",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "Examples",
+    "subsection": "example_2",
+    "chunk_type": "example",
+    "keywords": [
+      "refund",
+      "grace period",
+      "shipping",
+      "processing time"
+    ],
+    "categories": [],
+    "customer_tiers": [
+      "Gold"
+    ]
+  },
+  {
+    "content": "```\nCustomer: MICMON0779 (Platinum Tier)\nRequest: Return $1,200 furniture set, change of mind, day 60 (30 days past window)\nProcessing:\n- Extended window (+30 days) applied \u2192 Request approved\n- 20% restocking fee = $240\n- Platinum 50% reduction = $120 discount\n- Final restocking fee: $120\n- Refund amount: $1,080\n- White-glove pickup service arranged\n- Same-day processing\n```",
+    "document_id": "SOP-TIER-004  ",
+    "document_title": "Standard Operating Procedure: Customer Tier Benefits",
+    "section": "Examples",
+    "subsection": "example_3",
+    "chunk_type": "example",
+    "keywords": [
+      "refund",
+      "restocking fee"
+    ],
+    "categories": [],
+    "customer_tiers": [
+      "Platinum"
+    ]
+  },
+  {
+    "content": "## 1. PURPOSE\n\nThis document establishes standardized procedures for handling exceptional circumstances in return and refund processing that fall outside normal policy parameters, ensuring consistent decision-making and appropriate escalation protocols.\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "1. PURPOSE\n\nThis document establishes standardized procedures for handling exceptional circumstances in return and refund processing that fall outside normal policy parameters, ensuring consistent decision-making and appropriate escalation protocols.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund",
+      "escalation",
+      "exception"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 2. SCOPE\n\nThis policy covers all exception scenarios including policy violations, edge cases, special circumstances, and requests requiring management approval in the return and refund process.\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "2. SCOPE\n\nThis policy covers all exception scenarios including policy violations, edge cases, special circumstances, and requests requiring management approval in the return and refund process.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund",
+      "exception",
+      "approval"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 3. EXCEPTION CATEGORIES\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "3. EXCEPTION CATEGORIES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "exception"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 4. ESCALATION HIERARCHY\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "4. ESCALATION HIERARCHY",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "escalation"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 5. EXCEPTION PROCESSING PROCEDURES\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "5. EXCEPTION PROCESSING PROCEDURES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "exception"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 6. COMMON EXCEPTION SCENARIOS\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "6. COMMON EXCEPTION SCENARIOS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "exception"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 7. FRAUD PREVENTION\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "7. FRAUD PREVENTION",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 8. CUSTOMER COMMUNICATION\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "8. CUSTOMER COMMUNICATION",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 9. BUSINESS IMPACT CONSIDERATIONS\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "9. BUSINESS IMPACT CONSIDERATIONS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 10. CONTINUOUS IMPROVEMENT\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "10. CONTINUOUS IMPROVEMENT",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 11. EXCEPTION TRACKING AND REPORTING\n\n",
+    "document_id": "SOP-EXC-005  ",
+    "document_title": "Standard Operating Procedure: Exception Handling Procedures",
+    "section": "11. EXCEPTION TRACKING AND REPORTING",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "exception"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 1. PURPOSE\n\nThis document establishes category-specific return and refund policies that address the unique characteristics and requirements of different product types sold through our e-commerce platform.\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "1. PURPOSE\n\nThis document establishes category-specific return and refund policies that address the unique characteristics and requirements of different product types sold through our e-commerce platform.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 2. SCOPE\n\nThis policy provides detailed guidelines for handling returns and refunds across five main product categories: Electronics, Clothing, Home & Garden, Books, and Sports & Fitness.\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "2. SCOPE\n\nThis policy provides detailed guidelines for handling returns and refunds across five main product categories: Electronics, Clothing, Home & Garden, Books, and Sports & Fitness.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [
+      "Electronics",
+      "Clothing",
+      "Home & Garden",
+      "Books",
+      "Sports"
+    ],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 3. ELECTRONICS CATEGORY\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "3. ELECTRONICS CATEGORY",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [
+      "Electronics"
+    ],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 4. CLOTHING & ACCESSORIES CATEGORY\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "4. CLOTHING & ACCESSORIES CATEGORY",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [
+      "Clothing"
+    ],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 5. HOME & GARDEN CATEGORY\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "5. HOME & GARDEN CATEGORY",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [
+      "Home & Garden"
+    ],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 6. BOOKS CATEGORY\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "6. BOOKS CATEGORY",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [
+      "Books"
+    ],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 7. SPORTS & FITNESS CATEGORY\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "7. SPORTS & FITNESS CATEGORY",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [
+      "Sports"
+    ],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 8. CROSS-CATEGORY CONSIDERATIONS\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "8. CROSS-CATEGORY CONSIDERATIONS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 9. PROHIBITED RETURNS\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "9. PROHIBITED RETURNS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 10. QUALITY ASSURANCE\n\n",
+    "document_id": "SOP-CAT-003  ",
+    "document_title": "Standard Operating Procedure: Product Category Specific Policies",
+    "section": "10. QUALITY ASSURANCE",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 1. PURPOSE\n\nThis document establishes standardized rules for calculating refund amounts across all product categories, ensuring consistency and fairness in customer refund processing.\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "1. PURPOSE\n\nThis document establishes standardized rules for calculating refund amounts across all product categories, ensuring consistency and fairness in customer refund processing.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 2. SCOPE\n\nThis policy applies to all refund requests for products sold through our e-commerce platform and covers full refunds, partial refunds, and applicable fees.\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "2. SCOPE\n\nThis policy applies to all refund requests for products sold through our e-commerce platform and covers full refunds, partial refunds, and applicable fees.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 3. REFUND CALCULATION MATRIX\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "3. REFUND CALCULATION MATRIX",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 4. CATEGORY-SPECIFIC CALCULATION RULES\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "4. CATEGORY-SPECIFIC CALCULATION RULES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 5. SHIPPING COST HANDLING\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "5. SHIPPING COST HANDLING",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "shipping"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 6. CUSTOMER TIER ADJUSTMENTS\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "6. CUSTOMER TIER ADJUSTMENTS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 7. SPECIAL CIRCUMSTANCES\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "7. SPECIAL CIRCUMSTANCES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 8. CALCULATION EXAMPLES\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "8. CALCULATION EXAMPLES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 9. DISPUTE RESOLUTION\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "9. DISPUTE RESOLUTION",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 10. MONITORING AND COMPLIANCE\n\n",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "10. MONITORING AND COMPLIANCE",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "```\nBase Refund = Original Purchase Price - Restocking Fee - Condition Deductions\nMinimum Refund = 30% of Original Price (unless denial criteria met)\nMaximum Restocking Fee = Lesser of (20% of price OR $500)\n```",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "Examples",
+    "subsection": "example_1",
+    "chunk_type": "example",
+    "keywords": [
+      "refund",
+      "restocking fee"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "```\nBase Refund = Original Purchase Price - Condition Deductions\nNo Restocking Fees Applied\nMinimum Refund = 70% of Original Price (for minor issues)\n```",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "Examples",
+    "subsection": "example_2",
+    "chunk_type": "example",
+    "keywords": [
+      "refund",
+      "restocking fee"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "```\nBase Refund = Original Purchase Price - Assembly Fee - Condition Deductions\nAssembly Fee = $25-100 (if customer assembled then returned)\nMinimum Refund = 40% of Original Price\n```",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "Examples",
+    "subsection": "example_3",
+    "chunk_type": "example",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "```\nBase Refund = Original Purchase Price - Condition Deductions\nNo Restocking Fees\nMinimum Refund = 80% of Original Price\n```",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "Examples",
+    "subsection": "example_4",
+    "chunk_type": "example",
+    "keywords": [
+      "refund",
+      "restocking fee"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "```\nBase Refund = Original Purchase Price - Usage Fee - Condition Deductions\nUsage Fee = 10% if used beyond testing\nMinimum Refund = 50% of Original Price\n```",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "Examples",
+    "subsection": "example_5",
+    "chunk_type": "example",
+    "keywords": [
+      "refund"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "```\nItem: Premium Gaming Laptop ($1,500)\nCustomer Tier: Gold\nReason: Change of mind\nCondition: Excellent, original packaging\nTime: Within return window\n\nCalculation:\nBase Price: $1,500\nRestocking Fee: 20% \u00d7 $1,500 = $300\nGold Tier Reduction: 25% \u00d7 $300 = $75\nFinal Restocking Fee: $225\nRefund Amount: $1,500 - $225 = $1,275\n```",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "Examples",
+    "subsection": "example_6",
+    "chunk_type": "example",
+    "keywords": [
+      "return window",
+      "refund",
+      "restocking fee"
+    ],
+    "categories": [],
+    "customer_tiers": [
+      "Gold"
+    ]
+  },
+  {
+    "content": "```\nItem: Designer Jeans ($200)\nCustomer Tier: Silver\nReason: Wrong size\nCondition: Tags attached, unworn\nTime: Within return window\n\nCalculation:\nBase Price: $200\nRestocking Fee: $0 (clothing)\nCondition Deduction: $0\nRefund Amount: $200 (full refund)\nOriginal shipping: Not refunded ($15)\n```",
+    "document_id": "SOP-REF-002  ",
+    "document_title": "Standard Operating Procedure: Refund Calculation Rules",
+    "section": "Examples",
+    "subsection": "example_7",
+    "chunk_type": "example",
+    "keywords": [
+      "return window",
+      "refund",
+      "restocking fee",
+      "shipping"
+    ],
+    "categories": [
+      "Clothing"
+    ],
+    "customer_tiers": [
+      "Silver"
+    ]
+  },
+  {
+    "content": "## 1. PURPOSE\n\nThis document establishes the standard timeframes for return eligibility across all product categories to ensure consistent customer service and operational efficiency.\n\n",
+    "document_id": "SOP-RET-001  ",
+    "document_title": "Standard Operating Procedure: Return Eligibility Timeframes",
+    "section": "1. PURPOSE\n\nThis document establishes the standard timeframes for return eligibility across all product categories to ensure consistent customer service and operational efficiency.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 2. SCOPE\n\nThis policy applies to all products sold through our e-commerce platform and covers return timeframes from the date of delivery.\n\n",
+    "document_id": "SOP-RET-001  ",
+    "document_title": "Standard Operating Procedure: Return Eligibility Timeframes",
+    "section": "2. SCOPE\n\nThis policy applies to all products sold through our e-commerce platform and covers return timeframes from the date of delivery.",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 3. RETURN WINDOW PERIODS\n\n",
+    "document_id": "SOP-RET-001  ",
+    "document_title": "Standard Operating Procedure: Return Eligibility Timeframes",
+    "section": "3. RETURN WINDOW PERIODS",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "return window"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 4. RETURN WINDOW CALCULATION\n\n",
+    "document_id": "SOP-RET-001  ",
+    "document_title": "Standard Operating Procedure: Return Eligibility Timeframes",
+    "section": "4. RETURN WINDOW CALCULATION",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "return window"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 5. EXCEPTIONS TO STANDARD TIMEFRAMES\n\n",
+    "document_id": "SOP-RET-001  ",
+    "document_title": "Standard Operating Procedure: Return Eligibility Timeframes",
+    "section": "5. EXCEPTIONS TO STANDARD TIMEFRAMES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "exception"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 6. VALIDATION PROCEDURES\n\n",
+    "document_id": "SOP-RET-001  ",
+    "document_title": "Standard Operating Procedure: Return Eligibility Timeframes",
+    "section": "6. VALIDATION PROCEDURES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 7. ESCALATION PROCEDURES\n\n",
+    "document_id": "SOP-RET-001  ",
+    "document_title": "Standard Operating Procedure: Return Eligibility Timeframes",
+    "section": "7. ESCALATION PROCEDURES",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [
+      "escalation"
+    ],
+    "categories": [],
+    "customer_tiers": []
+  },
+  {
+    "content": "## 8. MONITORING AND COMPLIANCE\n\n",
+    "document_id": "SOP-RET-001  ",
+    "document_title": "Standard Operating Procedure: Return Eligibility Timeframes",
+    "section": "8. MONITORING AND COMPLIANCE",
+    "subsection": "",
+    "chunk_type": "section",
+    "keywords": [],
+    "categories": [],
+    "customer_tiers": []
+  }
+]

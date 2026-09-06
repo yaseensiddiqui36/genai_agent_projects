@@ -1,0 +1,16 @@
+.venv/
+myenv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.git/
+.github/
+
+.env
+credentials.json
+token.pickle
+
+# Rebuilt on first boot from data/*.csv - see ensure_database_seeded()
+refunds_agent.db
