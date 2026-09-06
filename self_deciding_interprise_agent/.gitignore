@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Generated data artifacts (regenerate via db/seed.py and rag/vectorstore.py)
+data/enterprise.db
+data/faiss_index/
+
+
+# Other documents which are not relavant:
+task01.txt
