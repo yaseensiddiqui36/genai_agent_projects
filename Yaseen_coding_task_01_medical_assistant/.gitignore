@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+faiss_store/*.index
+faiss_store/*.pkl
+faiss_store/*.txt

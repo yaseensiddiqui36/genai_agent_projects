@@ -1,0 +1,38 @@
+Type 2 Diabetes Mellitus: Management Guide
+
+Definition and Diagnosis
+Type 2 diabetes is a chronic metabolic condition characterized by insulin resistance and
+relative insulin deficiency, resulting in elevated blood glucose levels. Diagnostic criteria
+include a fasting plasma glucose of 126 mg/dL or higher, a hemoglobin A1c of 6.5% or higher,
+a random plasma glucose of 200 mg/dL or higher with classic symptoms, or an abnormal oral
+glucose tolerance test.
+
+Lifestyle Management
+Lifestyle modification is the foundation of Type 2 diabetes management. Recommended changes
+include:
+- Adopting a balanced diet emphasizing vegetables, whole grains, lean protein, and healthy
+  fats while limiting refined sugars and processed carbohydrates.
+- Engaging in at least 150 minutes per week of moderate-intensity aerobic exercise, combined
+  with resistance training two to three times per week.
+- Achieving a 5-10% reduction in body weight for patients who are overweight or obese, which
+  has been shown to meaningfully improve glycemic control.
+- Smoking cessation and limiting alcohol consumption.
+- Regular self-monitoring of blood glucose as advised by a care team.
+
+Pharmacologic Therapy
+Metformin is typically the first-line pharmacologic agent unless contraindicated. Additional
+agents such as SGLT2 inhibitors, GLP-1 receptor agonists, sulfonylureas, DPP-4 inhibitors, or
+insulin may be added based on individual glycemic targets, comorbidities, and cardiovascular
+or renal risk.
+
+Glycemic Targets
+A general hemoglobin A1c target for most non-pregnant adults is below 7%, though targets may
+be individualized (e.g., relaxed to below 8% for older adults with comorbidities, or
+tightened for younger, healthier patients without hypoglycemia risk).
+
+Complications and Monitoring
+Chronic hyperglycemia can lead to microvascular complications (retinopathy, nephropathy,
+neuropathy) and macrovascular complications (coronary artery disease, stroke, peripheral
+artery disease). Recommended monitoring includes annual dilated eye exams, annual urine
+albumin-to-creatinine ratio testing, foot exams at every visit, and A1c testing every three to
+six months depending on how well glucose is controlled.
